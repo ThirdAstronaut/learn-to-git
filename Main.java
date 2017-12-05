@@ -12,14 +12,9 @@ public class Main{
         Doable one = DoableFactory.create(DoableImpl::new);
         Doable two = DoableFactory.create(DoableOverrideImpl::new);
 
-
-
-
     }
     public static void doThings(Doable doable){
         doable.doStuff();
 
     }
-
-
 }
